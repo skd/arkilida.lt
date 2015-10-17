@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "bootstrap.min.css";
+
+// Scaled
+$scaled-image-padding: 5px;
+.scaled {
+  margin: 0;
+  padding: $scaled-image-padding;
+}
+
+.scaled .row {
+  padding: 0;
+  margin: 0;
+}
+
+.scaled [class*="col-"] {
+  padding: $scaled-image-padding;
+  margin: 0;
+}
+
+.scaled [class*="col-"].row {
+  padding: 0;
+  margin: 0;
+}
+
+.scaled [class*="col-"].row[class*="col-"] {
+  padding-bottom: $scaled-image-padding;
+}
+
+.scaled .blueprint {
+  color: white;
+  padding: $scaled-image-padding;
+  background-color:#269;
+  background-image: linear-gradient(white 2px, transparent 2px),
+  linear-gradient(90deg, white 2px, transparent 2px),
+  linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
