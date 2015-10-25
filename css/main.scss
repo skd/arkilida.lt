@@ -8,24 +8,20 @@
 .scaled {
   $scaled-image-padding: 5px;
   margin: 0;
-  padding: 0;
+  padding: $scaled-image-padding;
 
   .row {
-    padding: $scaled-image-padding 0 $scaled-image-padding $scaled-image-padding * 2;
     margin: 0;
+    padding: 0;
   }
 
   [class*="col-"] {
-    padding: 0;
-    padding-right: $scaled-image-padding * 2;
+    padding: $scaled-image-padding;
     margin: 0;
   }
   [class*="col-"].row {
     padding: 0;
-    margin: -$scaled-image-padding;
-    [class*="col-"] {
-      padding: $scaled-image-padding;
-    }
+    margin: 0;
   }
 
   .simg-1, .simg-2 {
