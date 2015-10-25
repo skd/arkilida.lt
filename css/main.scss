@@ -5,39 +5,63 @@
 @import "bootstrap.min.css";
 
 // Scaled
-$scaled-image-padding: 5px;
 .scaled {
+  $scaled-image-padding: 5px;
   margin: 0;
-  padding: $scaled-image-padding;
-}
-
-.scaled .row {
   padding: 0;
-  margin: 0;
-}
 
-.scaled [class*="col-"] {
-  padding: $scaled-image-padding;
-  margin: 0;
-}
+  .row {
+    padding: $scaled-image-padding 0 $scaled-image-padding $scaled-image-padding * 2;
+    margin: 0;
+  }
 
-.scaled [class*="col-"].row {
-  padding: 0;
-  margin: 0;
-}
+  [class*="col-"] {
+    padding: 0;
+    padding-right: $scaled-image-padding * 2;
+    margin: 0;
+  }
+  [class*="col-"].row {
+    padding: 0;
+    margin: -$scaled-image-padding;
+    [class*="col-"] {
+      padding: $scaled-image-padding;
+    }
+  }
 
-.scaled [class*="col-"].row[class*="col-"] {
-  padding-bottom: $scaled-image-padding;
-}
+  .simg-1, .simg-2 {
+    background-position: center center;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: contrast(0.6) grayscale(1); /* Chrome 19+ & Safari 6+ */
+  }
+  .simg-1:hover, .simg-2:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+  }
+  .simg-1 {
+    height: 300px;
+  }
+  .simg-2 {
+    height: 600px + $scaled-image-padding * 2;
+  }
 
-.scaled .blueprint {
-  color: white;
-  padding: $scaled-image-padding;
-  background-color:#269;
-  background-image: linear-gradient(white 2px, transparent 2px),
-  linear-gradient(90deg, white 2px, transparent 2px),
-  linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
-  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  .blueprint {
+    .link-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 32px;
+      font-weight: bold;
+    }
+    height: 300px;
+    color: white;
+    padding: $scaled-image-padding;
+
+    background:
+    linear-gradient(135deg, #708090 22px, #9aafc4 22px, #9aafc4 24px, transparent 24px, transparent 67px, #87a6c4 67px, #87a6c4 69px, transparent 69px),
+    linear-gradient(225deg, #708090 22px, #9aafc4 22px, #9aafc4 24px, transparent 24px, transparent 67px, #87a6c4 67px, #87a6c4 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px
+  }
 }
