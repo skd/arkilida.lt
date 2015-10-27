@@ -53,3 +53,14 @@
       transform: translateX(-50%) translateY(-50%);
       font-size: 32px;
       font-weight: bold; }
+
+.grid {
+  margin: 0 auto; }
+  .grid .grid-item {
+    float: left; }
+  .grid .grid-item img {
+    display: block;
+    max-width: 100%; }
+  .grid .grid-sizer,
+  .grid .grid-item {
+    width: 33.333%; }
