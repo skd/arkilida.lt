@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-#permalink: /about/
+permalink: /about/
 ---
 
 <div class="grid">
@@ -44,12 +44,8 @@ title: About
 </div>
 
 <script>
-// vanilla JS
-var msnry = new Masonry( '.grid', {
-  columnWidth: '.grid-sizer',
-  itemSelector: '.grid-item'
-  percentPosition: true
-  gutter: 10
-  isFitWidth: true
-});
+  var msnry = new Masonry('.grid', {
+    itemSelector: '.grid-item',
+    columnWidth: 200,
+  });
 </script>

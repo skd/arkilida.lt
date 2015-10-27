@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import "bootstrap.min.css";
+@import "bootstrap";
 
 // Scaled
 .scaled {
@@ -81,17 +81,22 @@
 
 .grid {
   margin: 0 auto;
-  .grid-item {
-    float: left;
-  }
 
-  .grid-item img {
-    display: block;
-    max-width: 100%;
-  }
+  .grid-item { width: 200px; height: 200px }
+  .grid-item--width2 { width: 400px; }
 
-  .grid-sizer,
-  .grid-item {
-    width: 33.333%;
-  }
+  //
+  // .grid-item {
+  //   margin-bottom: 10px;
+  //   float: left;
+  // }
+  //
+  // .grid-item img {
+  //   display: block;
+  //   max-width: 100%;
+  // }
+  //
+  // @media (min-width: $screen-sm-min) { .grid-sizer, .grid-item { width: 100%; }}
+  // @media (min-width: $screen-md-min) { .grid-sizer, .grid-item { width: 33%; }}
+  // @media (min-width: $screen-lg-min) { .grid-sizer, .grid-item { width: 25%; }}
 }
