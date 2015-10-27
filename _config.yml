@@ -10,4 +10,4 @@ url: "http://arkilida.lt" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-destination: site
+destination: _site
