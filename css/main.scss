@@ -80,10 +80,23 @@
 // Grid
 
 .grid {
-  margin: 0 auto;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
 
-  .grid-item { width: 200px; height: 200px }
-  .grid-item--width2 { width: 400px; }
+  .grid-sizer, .grid-item {
+    width: 97%;
+    height: auto;
+    float: left;
+    padding-bottom: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+  @media (min-width: $screen-sm-min) { .grid-sizer, .grid-item { width: 48%; }}
+  @media (min-width: $screen-md-min) { .grid-sizer, .grid-item { width: 32%; }}
+  @media (min-width: $screen-lg-min) { .grid-sizer, .grid-item { width: 24%; }}
 
   //
   // .grid-item {
@@ -96,7 +109,5 @@
   //   max-width: 100%;
   // }
   //
-  // @media (min-width: $screen-sm-min) { .grid-sizer, .grid-item { width: 100%; }}
-  // @media (min-width: $screen-md-min) { .grid-sizer, .grid-item { width: 33%; }}
-  // @media (min-width: $screen-lg-min) { .grid-sizer, .grid-item { width: 25%; }}
+
 }
