@@ -6,15 +6,19 @@
   <body>
     {% include js.html %}
 
-    {% include header.html %}
+    {% include sidebar.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="site-overlay"></div>
+
+    <div id="container" class="page-container">
+      <div class="left-container">
+          {% include navigation.html %}
+      </div>
+      <div class="content-container">
         {{ content }}
       </div>
     </div>
 
-    {% include footer.html %}
   </body>
 
 </html>
