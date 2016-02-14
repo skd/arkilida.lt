@@ -1,0 +1,177 @@
+// Sliding photos
+$slideshow-margin: 0px;
+.project-slideshow {
+  @media (max-width: $screen-xs-max) {
+    margin: $slideshow-margin auto;
+    overflow: hidden;
+  }
+  @media (min-width: $screen-sm-min) {
+    margin: auto;
+    height: 315px;
+  }
+  @media (min-width: $screen-md-min) {
+    margin: 90px $slideshow-margin $slideshow-margin $slideshow-margin;
+    height: 333px;
+  }
+  @media (min-width: $screen-lg-min) {
+    height: 450px;
+  }
+  width: 100%;
+
+  .slide {
+    text-align: center;
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.project-slideshow .dots,
+.project-slideshow .dot-item,
+.project-slideshow .dot {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  border: 0;
+  background: transparent;
+}
+
+.project-slideshow .dot-item:focus {
+  outline: none;
+}
+
+.project-slideshow .dots {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  list-style: none;
+
+  font-size: 0;
+}
+
+.project-slideshow .dot-item {
+  list-style: none;
+  display: inline-block;
+
+  width: 18px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+
+  cursor: pointer;
+
+  opacity: 0.8;
+}
+
+.project-slideshow .dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 6px;
+  font-size: 0;
+
+  border: solid 1px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.no-touch .dot-item:hover .dot {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.project-slideshow .dot-item:active .dot,
+.project-slideshow .dot-item.active .dot {
+  background-color: white;
+}
+
+.project-slideshow {
+  /*box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.4);*/
+  //background: #EEE /*url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png)*/;
+  //margin: 0 auto;
+}
+
+.project-slideshow .slides {
+  // box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8), 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+// Buttons
+
+.project-slideshow {
+  .next, .previous {
+    outline: none;
+    @media (max-width: $screen-sm-max) {
+      display: none;
+    }
+  }
+}
+
+.project-slideshow .next,
+.project-slideshow .previous {
+  border: 0;
+  padding: 20px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.0);
+  cursor: pointer;
+
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+
+  top: 0;
+
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+
+  font-size: 14pt;
+  opacity: 0;
+
+  -webkit-transition: opacity 300ms linear;
+  -moz-transition: opacity 300ms linear;
+  -ms-transition: opacity 300ms linear;
+  -o-transition: opacity 300ms linear;
+  transition: opacity 300ms linear;
+}
+
+.project-slideshow .next {
+  text-align: right;
+}
+.project-slideshow .previous {
+  text-align: left;
+}
+
+.project-slideshow.no-touch:hover .next,
+.project-slideshow.no-touch:hover .previous {
+  // opacity: 1;
+  transition: none;
+}
+
+.project-slideshow .next:hover,
+.project-slideshow .previous:hover {
+  // background-color: rgba(0, 0, 0, 0.2);
+}
+
+.project-slideshow .next:active,
+.project-slideshow .previous:active {
+  // background-color: rgba(0, 0, 0, 0.4);
+}
+
+.project-slideshow .previous {
+  left: 0;
+}
+
+.project-slideshow .next {
+  right: 0;
+}
+
+.project-slideshow .previous:before {
+  content: '\2039';
+}
+
+.project-slideshow .next:before {
+  content: '\203a';
+}
