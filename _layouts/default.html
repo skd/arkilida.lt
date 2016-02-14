@@ -6,7 +6,7 @@
   <body>
     {% include js.html %}
 
-    {% include sidebar.html %}
+    <div class="pushy pushy-left"></div>
 
     <div class="site-overlay"></div>
 
@@ -18,6 +18,10 @@
         {{ content }}
       </div>
     </div>
+
+    <script>
+      $('.pushy').html($('nav').html());
+    </script>
 
   </body>
 
