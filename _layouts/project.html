@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{% if page.photos %}
+<div class="project-slideshow swipeshow">
+  <ul class="slides">
+  {% for photo in page.photos %}
+    <li class="slide"><img src="{{site.baseurl}}/{{photo}}"></li>
+  {% endfor %}
+  </ul>
+
+  <button class="next"></button>
+  <button class="previous"></button>
+  <div class='dots'></div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('.project-slideshow').swipeshow({
+      autostart: false,   /* Set to `false` to keep it steady */
+      initial: 0,         /* First slide's index */
+      speed: 500,         /* Animation speed (ms) */
+      friction: 0.3,      /* Bounce-back behavior; use `0` to disable */
+      mouse: true,        /* enable mouse dragging controls */
+
+      onactivate: function(){},
+      onpause: function(){},
+    });
+    resizeProjectSlideshow();
+  })
+  $(window).on('resize', function(){
+      resizeProjectSlideshow();
+  });
+
+  function resizeProjectSlideshow() {
+    var win = $(this);
+    if (win.width() <= 991) {
+      ratio = 1600. / 900.;
+      var slideshow = $('.project-slideshow');
+      slideshow.height(slideshow.width() / ratio);
+    } else {
+      $('.project-slideshow').css('height', '');
+    }
+  }
+</script>
+{% endif %}
+
+{{ content }}

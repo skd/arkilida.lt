@@ -1,0 +1,29 @@
+// Grid
+$grid-spacing: 5px;
+
+.grid {
+  width: 100%;
+  padding-left: $grid-spacing;
+  position: relative;
+
+  .column {
+    float: left;
+    padding: $grid-spacing $grid-spacing 0 0;
+
+    @media (max-width: $screen-xs-max) { padding-top: 0px; }
+    @media (max-width: $screen-sm-max) { width: 100%; }
+    @media (min-width: $screen-sm-min) { width: 33.33%; }
+
+    .item {
+      width: 100%;
+      padding-bottom: $grid-spacing;
+      filter: contrast(0.85) grayscale(1) brightness(2);
+      filter: gray; /* IE6-9 */
+      -webkit-filter: contrast(0.7) grayscale(1) brightness(1.2); /* Chrome 19+ & Safari 6+ */
+    }
+    .item:hover {
+      filter: none;
+      -webkit-filter: grayscale(0%);
+    }
+  }
+}

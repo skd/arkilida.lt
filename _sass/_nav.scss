@@ -1,0 +1,92 @@
+$navbar-height: 45px;
+$header-position: 20px;
+
+// Navigation and title
+header {
+  @media (max-width: $screen-xs-max) {
+    position: absolute;
+    height: $navbar-height;
+    padding-left: $grid-spacing;
+    padding-right: $grid-spacing;
+    .title {
+      display: inline;
+    }
+    .menu-btn {
+      color: black;
+      font-size: 16pt;
+      font-weight: lighter;
+      position: fixed;
+      left: 15px;
+      top: 8px;
+    }
+  }
+  @media (min-width: $screen-sm-min) {
+    padding-left: $header-position;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    .title {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: $header-position;
+    }
+    .menu-btn {
+      display: none;
+    }
+  }
+
+  nav {
+    @media (max-width: $screen-xs-max) {
+      display:none;
+    }
+    @media (min-width: $screen-sm-min) {
+      position: absolute;
+      bottom: $header-position;
+    }
+
+    ul, li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      @media (max-width: $screen-xs-max) {
+        display: inline;
+        font-size: 22pt;
+        padding-left: 26px;
+        .val {
+          display: none;
+        }
+        a:hover, a:visited, a:focus {
+          text-decoration: none;
+        }
+      }
+      @media (min-width: $screen-sm-min) {
+        color: black;
+        font-family: 'Roboto Slab', serif;
+        font-size: 12pt;
+        .fa {
+          display: none;
+        }
+      }
+    }
+  }
+
+
+  .title {
+    @media (max-width: $screen-xs-max) {
+      position: fixed;
+      left: 48px;
+      top: 1px;
+      font-size: 20pt;
+    }
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 26pt;
+  }
+  .title a:hover, .title a:visited {
+    text-decoration: none;
+  }
+}
