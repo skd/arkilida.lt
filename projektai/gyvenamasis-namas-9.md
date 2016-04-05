@@ -1,0 +1,11 @@
+---
+layout: project
+
+photos:
+- img/namas_8-1.jpg
+- img/namas_8-2.jpg
+---
+<div class="text-container">
+  <h1>Vienbutis gyvenamasis namas</h1>
+  <p>Vilniaus rajonas<br/>2013</p>
+</div>

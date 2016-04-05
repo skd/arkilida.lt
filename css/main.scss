@@ -69,9 +69,21 @@ a:active, a:checked, a:focus { color: black; text-decoration: none; }
   }
 
   .text-container {
-    margin-left: $grid-spacing;
-    margin-right: $grid-spacing;
     font-weight: 300;
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-family: 'Roboto Slab', serif;
+      font-size: 16px;
+    }
+    @media (max-width: $screen-xs-max) {
+      h1, p {
+        padding-left: $grid-spacing;
+        padding-right: $grid-spacing;
+        text-align: center;
+      }
+    }
   }
 
   .pad-top {
