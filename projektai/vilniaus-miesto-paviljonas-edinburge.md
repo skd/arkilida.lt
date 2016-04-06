@@ -5,7 +5,5 @@ photos:
 - img/Paviljonas_1.jpg
 - img/Paviljonas_2.jpg
 ---
-<div class="text-container">
-  <h1>Vilniaus miesto paviljonas Europos miestų festivaliui Edinburge</h1>
-  <p>Konkursinis pasiūlymas, III vieta<br/>Kartu su Tomu Skripkiūnu<br/>2015</p>
-</div>
+<h1>Vilniaus miesto paviljonas Europos miestų festivaliui Edinburge</h1>
+<p>Konkursinis pasiūlymas, III vieta<br/>Kartu su Tomu Skripkiūnu<br/>2015</p>

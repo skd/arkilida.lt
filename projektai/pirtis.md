@@ -11,7 +11,5 @@ photos:
 - img/Pirtis_7.jpg
 - img/Pirtis_8.jpg
 ---
-<div class="text-container">
-  <h1>Pirties ir poilsio pastatas</h1>
-  <p>Vilniaus rajonas<br/>2009</p>
-</div>
+<h1>Pirties ir poilsio pastatas</h1>
+<p>Vilniaus rajonas<br/>2009</p>

@@ -2,14 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import "fonts";
+@import "{{site.baseurl}}/css/font-awesome.min.css";
 @import "bootstrap";
 @import "slideshow";
 @import "pushy";  // sidebar menu
 @import "grid"; // photos grid
 @import "nav";
-@import "{{site.baseurl}}/css/font-awesome.min.css";
 @import "{{site.baseurl}}/css/jquery.swipeshow.css";
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300);
 
 html, body { height: 100%; width: 100% }
 
@@ -68,7 +68,13 @@ a:active, a:checked, a:focus { color: black; text-decoration: none; }
     width: $screen-lg-min - 400;
   }
 
-  .text-container {
+  .pad-top {
+    @media (min-width: $screen-sm-min) {
+      padding-top: 70px;
+    }
+  }
+
+  .text-container, .project-container {
     font-weight: 300;
     h1 {
       font-size: 24px;
@@ -77,18 +83,16 @@ a:active, a:checked, a:focus { color: black; text-decoration: none; }
       font-family: 'Roboto Slab', serif;
       font-size: 16px;
     }
-    @media (max-width: $screen-xs-max) {
-      h1, p {
+    h1, p {
+      @media (max-width: $screen-xs-max) {
         padding-left: $grid-spacing;
         padding-right: $grid-spacing;
-        text-align: center;
       }
     }
   }
-
-  .pad-top {
-    @media (min-width: $screen-sm-min) {
-      padding-top: 70px;
+  .project-container h1, .project-container p {
+    @media (max-width: $screen-xs-max) {
+      text-align: center;
     }
   }
 

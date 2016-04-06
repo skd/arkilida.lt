@@ -7,7 +7,5 @@ photos:
 - img/daugiabutis_1-3.jpg
 - img/daugiabutis_1-4.jpg
 ---
-<div class="text-container">
-  <h1>Daugiabutis gyvenamasis namas su komercinės paskirties patalpomis</h1>
-  <p>Vilnius<br/>2010</p>
-</div>
+<h1>Daugiabutis gyvenamasis namas su komercinės paskirties patalpomis</h1>
+<p>Vilnius<br/>2010</p>

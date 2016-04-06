@@ -7,7 +7,5 @@ photos:
 #- img/muziejus_1-5.jpg
 #- img/muziejus_1-6.jpg
 ---
-<div class="text-container">
-  <h1>Bauhaus muziejus</h1>
-  <p>Konkursinis darbas<br/>Dessau<br/>2015</p>
-</div>
+<h1>Bauhaus muziejus</h1>
+<p>Konkursinis darbas<br/>Dessau<br/>2015</p>
