@@ -1,0 +1,4 @@
+=== Pradeti darba
+
+Jonass-MBP:~ jonaslideikis$ cd Desktop/arkilida.lt/
+Jonass-MBP:arkilida.lt jonaslideikis$ jekyll serve --incremental
