@@ -1,4 +1,15 @@
 === Pradeti darba
 
-Jonass-MBP:~ jonaslideikis$ cd Desktop/arkilida.lt/
-Jonass-MBP:arkilida.lt jonaslideikis$ jekyll serve --incremental
+cd Desktop/arkilida.lt/
+jekyll serve --incremental
+
+=== Isjungti serva
+Ctrl-C
+
+=== Sukurti pusapio versija skirta servui (arkilida.lt)
+jekyll b    (sukuria direktorija _site)
+
+=== Baigti darba
+git add .
+git commit -m "Pridejau daugiau projektu"
+git push
