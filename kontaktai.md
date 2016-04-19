@@ -10,7 +10,7 @@ layout: default
           <pre>Saltoniškių g. 29-409, Vilnius</pre></p>
         <p>Jūsų patogumui prieš atvykdami susitarkite dėl laiko:<br/>
 <pre>
-<a href="mailto:archilaima@gmail.com">archilaima@gmail.com</a>
+<a href="mailto:architektai@arkilida.lt">architektai@arkilida.lt</a>
 +370 617 11 395
 </pre></p>
       </div>
