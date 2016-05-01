@@ -4,7 +4,6 @@ layout: project
 photos:
 - img/namas_9_1.jpg
 - img/namas_9_2.jpg
-- img/namas_9_2.jpg
 - img/namas_9_3.jpg
 - img/namas_9_4.jpg
 - img/namas_9_5.jpg
