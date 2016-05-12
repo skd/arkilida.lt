@@ -17,7 +17,7 @@ $grid-spacing: 5px;
     .item {
       width: 100%;
       padding-bottom: $grid-spacing;
-      filter: contrast(0.85) grayscale(1) brightness(2);
+      filter: contrast(0.7) grayscale(1) brightness(1.2);
       filter: gray; /* IE6-9 */
       -webkit-filter: contrast(0.7) grayscale(1) brightness(1.2); /* Chrome 19+ & Safari 6+ */
     }
