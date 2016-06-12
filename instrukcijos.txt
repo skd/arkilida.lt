@@ -1,6 +1,10 @@
 === Pradeti darba
 
+
 cd Desktop/arkilida.lt/
+
+git pull
+
 jekyll serve --incremental
 
 === Isjungti serva
