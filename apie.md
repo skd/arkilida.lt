@@ -15,7 +15,8 @@ layout: default
 	  </div>
 	</div>
   </div>
-  <p>UAB Arkilida, architektai Vilniuje. Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.</p>
+  
   <p>Esame daug patirties sukaupusi projektavimo įmonė, kurioje dirba atestuoti bei patyrę specialistai.</p>
+  <p>Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.</p>
   <p>Padėsime susigaudyti priešprojektiniuose darbuose, įsigilinsime į visus Jūsų pageidavimus ir siūlysime išskirtinai Jums pritaikytus architektūrinius sprendimus. Atsižvelgę į pageidavimus bei situaciją dirbame tiek su klasikinio, tiek su modernaus stiliaus archiktetūra.</p>
 </div>
