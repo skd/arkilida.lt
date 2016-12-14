@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Kaimo turizmo pastatas Vilniaus rajone
 photos:
 - img/kaimo-turizmas_3-1.jpg
 - img/kaimo-turizmas_3-2.jpg

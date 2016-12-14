@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Gyvenamasis namas Vilniaus rajone
 photos:
 - img/namas_7-1.jpg
 - img/namas_7-2.jpg

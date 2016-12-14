@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Buto interjeras Kiejve
 photos:
 - img/interjeras_2_1.jpg
 - img/interjeras_2_2.jpg

@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Vilniaus miesto paviljonas
 photos:
 - img/Paviljonas_1.jpg
 - img/Paviljonas_2.jpg

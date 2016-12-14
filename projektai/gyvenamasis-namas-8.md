@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Dvibutis gyvenamasis namas Vilniuje
 photos:
 - img/dvibutis_1-1.jpg
 - img/dvibutis_1-2.jpg

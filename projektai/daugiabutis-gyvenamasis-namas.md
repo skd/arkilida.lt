@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Daugiabutis gyvenamasis namas Vilniuje
 photos:
 - img/daugiabutis_1-1.jpg
 - img/daugiabutis_1-2.jpg

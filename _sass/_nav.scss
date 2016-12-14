@@ -8,8 +8,11 @@ header {
     height: $navbar-height;
     padding-left: $grid-spacing;
     padding-right: $grid-spacing;
-    .title {
+    .title, {
       display: inline;
+    }
+    .subtitle {
+      display: none;
     }
     .menu-btn {
       color: black;
@@ -27,9 +30,13 @@ header {
     height: 100%;
     .title {
       position: absolute;
-      width: 100%;
-      height: 100%;
       top: $header-position;
+    }
+    .subtitle {
+      position: absolute;
+      top: $header-position + 42;
+      text-align: right;
+      width: 153px;
     }
     .menu-btn {
       display: none;
@@ -88,7 +95,18 @@ header {
     font-size: 26pt;
     font-weight: lighter;
   }
-  .title a:hover, .title a:visited {
+  .title a:hover, .title a:visited, .subtitle a:hover, .subtitle a:visited {
     text-decoration: none;
+  }
+
+
+  .subtitle {
+    color: #444;
+    font-family: 'Roboto Slab', serif;
+    font-size: 10pt;
+    font-weight: lighter;
+
+    padding: 0;
+    margin: 0;
   }
 }

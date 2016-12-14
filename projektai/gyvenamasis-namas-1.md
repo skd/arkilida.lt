@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Gyvenamasis namas Vilniuje
 photos:
 - img/namas_9_1.jpg
 - img/namas_9_2.jpg

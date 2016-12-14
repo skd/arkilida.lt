@@ -1,6 +1,7 @@
 	---
 layout: project
 
+title: Gyvenamasis namas Trakų rajone
 photos:
 - img/namas_1-1.jpg
 - img/namas_1-2.jpg

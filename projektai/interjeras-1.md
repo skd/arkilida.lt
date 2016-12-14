@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Biuro interjeras Vilniuje
 photos:
 - img/interjeras_1_0.jpg
 - img/interjeras_1_1.jpg

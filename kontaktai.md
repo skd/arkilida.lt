@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Kontaktai
 ---
 <div class="text-container pad-top">
   <div class="container" style="width: 100%">
@@ -15,7 +16,7 @@ layout: default
 </pre></p>
       </div>
       <div class="col-sm-6 col-xs-12">
-        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.263749764612!2d25.25480822698291!3d54.69666200113794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fa3a47fa95%3A0x2e43a6eee322e608!2sSaltoni%C5%A1ki%C5%B3+g.+29%2C+Vilnius+08105%2C+Lietuva!5e0!3m2!1slt!2sch!4v1455480779163" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe id="map" src="https://maps.google.com/maps?q=Arkilida, Saltoniškių gatvė 29, Vilnius, Lithuania, &t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         <script>
           $(document).ready(function() {
             resizeMap();

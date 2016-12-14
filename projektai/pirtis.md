@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Pirtis Vilniaus rajone
 photos:
 - img/Pirtis_1.jpg
 - img/Pirtis_2.jpg

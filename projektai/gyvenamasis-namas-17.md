@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Dvibučiai namai Vilniaus rajone
 photos:
 - img/dvibutis_2-1.jpg
 - img/dvibutis_2-2.jpg

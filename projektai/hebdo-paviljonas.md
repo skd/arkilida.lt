@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Charlie Hebdo paviljonas
 photos:
 - img/Pavilion_1-1.jpg
 - img/Pavilion_1-2.jpg

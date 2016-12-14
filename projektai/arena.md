@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Ledo ritulio arena
 photos:
 - img/arena_1-1.jpg
 - img/arena_1-2.jpg

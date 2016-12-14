@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Visuomeninės paskirties pastatas Nemenčinėje
 photos:
 - img/visuomeninis_1.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Bauhaus muziejus
 photos:
 - img/muziejus_1-3.jpg
 - img/muziejus_1-4.jpg

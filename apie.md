@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Apie
 ---
 <div class="text-container pad-top">
   <h2>Apie</h2>

@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Namelis medyje
 photos:
 - img/Villa-Volanti_1.jpg
 - img/Villa-Volanti_2.jpg

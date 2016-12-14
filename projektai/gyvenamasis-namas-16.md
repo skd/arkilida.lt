@@ -1,6 +1,7 @@
 ---
 layout: project
 
+title: Vienbutis gyvenamasis namas Vilniaus rajone
 photos:
 - img/namas_15-1.jpg
 - img/namas_15-2.jpg
