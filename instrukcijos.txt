@@ -5,13 +5,13 @@ cd Desktop/arkilida.lt/
 
 git pull
 
-jekyll serve --incremental
+bundle exec jekyll serve --incremental
 
 === Isjungti serva
 Ctrl-C
 
 === Sukurti pusapio versija skirta servui (arkilida.lt)
-jekyll b    (sukuria direktorija _site)
+bundle exec jekyll b    (sukuria direktorija _site)
 
 === Baigti darba
 git add .
