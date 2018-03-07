@@ -9,5 +9,6 @@ photos:
 - img/namas_24_4.jpg
 - img/namas_24_5.jpg
 ---
-<h1>Vienbutis gyvenamasis namas A+</h1>
+<h1>Vienbutis gyvenamasis namas</h1>
+<p>Energetinė klasė „A+“</p>
 <p>Vilniaus rajonas<br/>2017</p>
