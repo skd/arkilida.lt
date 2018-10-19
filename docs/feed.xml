@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architektai Vilniuje | arkilida.lt</title>
+    <description>UAB Arkilida, architektai Vilniuje. Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.
+</description>
+    <link>http://arkilida.lt/</link>
+    <atom:link href="http://arkilida.lt/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 19 Oct 2018 22:51:58 +0200</pubDate>
+    <lastBuildDate>Fri, 19 Oct 2018 22:51:58 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+  </channel>
+</rss>
