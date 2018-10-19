@@ -8,4 +8,4 @@ url: "http://arkilida.lt" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 destination: docs
-include: ['.htaccess']
+exclude: ['TODO', 'Gemfile']
