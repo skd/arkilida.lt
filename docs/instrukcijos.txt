@@ -1,19 +1,29 @@
-=== Pradeti darba
+=== Prieš darbo pradžią
 
+1) Nueinam į arkilidos papkę:
 
 cd Desktop/arkilida.lt/
 
+2) Atsisiunčiam naujausią kodą iš servo
+
 git pull
+
+3) Paleidžiam www serverį lokaliai
 
 bundle exec jekyll serve --incremental
 
-=== Isjungti serva
-Ctrl-C
+4) Darom pakeitimus, bus matomi per vietinį www servą
 
-=== Sukurti pusapio versija skirta servui (arkilida.lt)
-bundle exec jekyll b    (sukuria direktorija _site)
+=== Išjungti servą
 
-=== Baigti darba
+5) Išjungiam serverį su klavišais: Ctrl-C
+
+6) Sukompiliuojam kodą, paruošiam jį servinimui serveryje:
+
+bundle exec jekyll b
+
+7) Baigiam darbą, nusiunčiam pamodifikuotą kodą į serverį
+
 git add .
-git commit -m "Pridejau daugiau projektu"
+git commit -m "Aprašymas, kaip buvo pakeistas kodas"
 git push
