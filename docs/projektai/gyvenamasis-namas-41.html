@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Kontaktai | Architektai Vilniuje | arkilida.lt</title>
-  <meta name="description" content="Kontaktai. UAB Arkilida, architektai Vilniuje. Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.
+  <title>Gyvenamasis namas Vilniaus rajone | Architektai Vilniuje | arkilida.lt</title>
+  <meta name="description" content="Gyvenamasis namas Vilniaus rajone. UAB Arkilida, architektai Vilniuje. Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://arkilida.lt/kontaktai.html">
+  <link rel="canonical" href="http://arkilida.lt/projektai/gyvenamasis-namas-41.html">
 </head>
 
 
@@ -49,35 +49,59 @@
 
       </div>
       <div class="content-container">
-        <div class="text-container pad-top">
-  <div class="container" style="width: 100%">
-    <div class="row">
-      <div class="col-sm-6 col-xs-12">
-        <h2>Kontaktai</h2>
-        <p>Mus galite rasti adresu:<br />
-          <pre>Saltoniškių g. 29-405, Vilnius</pre></p>
-        <p>Jūsų patogumui prieš atvykdami susitarkite dėl laiko:<br />
-<pre>
-<a href="mailto:architektai@arkilida.lt">architektai@arkilida.lt</a>
-+370 617 11 395
-</pre></p>
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <iframe id="map" src="https://maps.google.com/maps?q=Arkilida, Saltoniškių gatvė 29, Vilnius, Lithuania, &amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-        <script>
-          $(document).ready(function() {
-            resizeMap();
-          })
-          $(window).on('resize', function(){
-              resizeMap();
-          });
-          function resizeMap() {
-            $('#map').height($('#map').width());
-          }
-        </script>
-      </div>
-    </div>
-  </div>
+        
+<div class="project-slideshow swipeshow">
+  <ul class="slides">
+  
+    <li class="slide"><img src="/img/namas_38_1.jpg"></li>
+  
+    <li class="slide"><img src="/img/namas_38_2.jpg"></li>
+  
+    <li class="slide"><img src="/img/namas_38_3.jpg"></li>
+  
+  </ul>
+
+  <button class="next"></button>
+  <button class="previous"></button>
+  <div class='dots'></div>
+</div>
+
+<script async defer>
+  $(document).ready(function() {
+    $('.project-slideshow').swipeshow({
+      autostart: false,   /* Set to `false` to keep it steady */
+      initial: 0,         /* First slide's index */
+      speed: 500,         /* Animation speed (ms) */
+      friction: 0.3,      /* Bounce-back behavior; use `0` to disable */
+      mouse: true,        /* enable mouse dragging controls */
+
+      onactivate: function(){},
+      onpause: function(){},
+    });
+    resizeProjectSlideshow();
+  })
+  $(window).on('resize', function(){
+      resizeProjectSlideshow();
+  });
+
+  function resizeProjectSlideshow() {
+    var win = $(this);
+    if (win.width() <= 991) {
+      ratio = 1600. / 900.;
+      var slideshow = $('.project-slideshow');
+      slideshow.height(slideshow.width() / ratio);
+    } else {
+      $('.project-slideshow').css('height', '');
+    }
+  }
+</script>
+
+
+<div class="project-container">
+<h1>Vienbutis gyvenamasis namas</h1>
+<p>Energetinė klasė „A+“</p>
+<p>Vilniaus rajonas<br />2019</p>
+
 </div>
 
       </div>

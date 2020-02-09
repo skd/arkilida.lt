@@ -8,7 +8,7 @@ title: Kontaktai
       <div class="col-sm-6 col-xs-12">
         <h2>Kontaktai</h2>
         <p>Mus galite rasti adresu:<br/>
-          <pre>Saltoniškių g. 29-409, Vilnius</pre></p>
+          <pre>Saltoniškių g. 29-405, Vilnius</pre></p>
         <p>Jūsų patogumui prieš atvykdami susitarkite dėl laiko:<br/>
 <pre>
 <a href="mailto:architektai@arkilida.lt">architektai@arkilida.lt</a>
