@@ -5,6 +5,7 @@ title: Gyvenamasis namas Vilniaus rajone
 photos:
 - img/namas_41_1.jpg
 - img/namas_41_2.jpg
+- img/namas_41_3.jpg
 ---
 <h1>Vienbutis gyvenamasis namas</h1>
 <p>Energetinė klasė „A+“</p>
