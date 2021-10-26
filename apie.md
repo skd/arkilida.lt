@@ -11,7 +11,7 @@ title: Apie
 	  	<p><b>Laima Lideikienė</b><br/>Projektų vadovė – architektė</p>
 	  </div>
 	  <div class="col-xs-12 col-sm-6">
-	  	<img src="img/jonas_bw.jpg">
+	  	<img src="img/jonas1_bw.jpg">
 	  	<p><b>Jonas Lideikis</b><br/>Direktorius – architektas</p>
 	  </div>
 	</div>

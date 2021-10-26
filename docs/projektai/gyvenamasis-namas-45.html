@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Apie | Architektai Vilniuje | arkilida.lt</title>
-  <meta name="description" content="Apie. UAB Arkilida, architektai Vilniuje. Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.
+  <title>Gyvenamasis namas Vilniuje | Architektai Vilniuje | arkilida.lt</title>
+  <meta name="description" content="Gyvenamasis namas Vilniuje. UAB Arkilida, architektai Vilniuje. Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://arkilida.lt/apie.html">
+  <link rel="canonical" href="http://arkilida.lt/projektai/gyvenamasis-namas-45.html">
 </head>
 
 
@@ -49,24 +49,57 @@
 
       </div>
       <div class="content-container">
-        <div class="text-container pad-top">
-  <h2>Apie</h2>
-  <div class="about-grid container">
-  	<div class="row">
-	  <div class="col-xs-12 col-sm-6">
-	  	<img src="img/laima_bw.jpg" />
-	  	<p><b>Laima Lideikienė</b><br />Projektų vadovė – architektė</p>
-	  </div>
-	  <div class="col-xs-12 col-sm-6">
-	  	<img src="img/jonas1_bw.jpg" />
-	  	<p><b>Jonas Lideikis</b><br />Direktorius – architektas</p>
-	  </div>
-	</div>
-  </div>
+        
+<div class="project-slideshow swipeshow">
+  <ul class="slides">
   
-  <p>Esame daug patirties sukaupusi projektavimo įmonė, kurioje dirba atestuoti bei patyrę specialistai.</p>
-  <p>Kuriame praktiškus namus, kuriuose patogu ir malonu gyventi.</p>
-  <p>Padėsime susigaudyti priešprojektiniuose darbuose, įsigilinsime į visus Jūsų pageidavimus ir siūlysime išskirtinai Jums pritaikytus architektūrinius sprendimus. Atsižvelgę į pageidavimus bei situaciją dirbame tiek su klasikinio, tiek su modernaus stiliaus archiktetūra.</p>
+    <li class="slide"><img src="/img/namas_42_1.jpg"></li>
+  
+    <li class="slide"><img src="/img/namas_42_2.jpg"></li>
+  
+  </ul>
+
+  <button class="next"></button>
+  <button class="previous"></button>
+  <div class='dots'></div>
+</div>
+
+<script async defer>
+  $(document).ready(function() {
+    $('.project-slideshow').swipeshow({
+      autostart: false,   /* Set to `false` to keep it steady */
+      initial: 0,         /* First slide's index */
+      speed: 500,         /* Animation speed (ms) */
+      friction: 0.3,      /* Bounce-back behavior; use `0` to disable */
+      mouse: true,        /* enable mouse dragging controls */
+
+      onactivate: function(){},
+      onpause: function(){},
+    });
+    resizeProjectSlideshow();
+  })
+  $(window).on('resize', function(){
+      resizeProjectSlideshow();
+  });
+
+  function resizeProjectSlideshow() {
+    var win = $(this);
+    if (win.width() <= 991) {
+      ratio = 1600. / 900.;
+      var slideshow = $('.project-slideshow');
+      slideshow.height(slideshow.width() / ratio);
+    } else {
+      $('.project-slideshow').css('height', '');
+    }
+  }
+</script>
+
+
+<div class="project-container">
+<h1>Vienbutis gyvenamasis namas</h1>
+<p>Energetinė klasė „A++“</p>
+<p>Vilnius<br />2021</p>
+
 </div>
 
       </div>
