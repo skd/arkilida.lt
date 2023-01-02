@@ -3,7 +3,7 @@ layout: project
 
 title: Medinio daugiabučio konkursas
 photos:
-- img/konkursas_medinis_daugiabutis_1.jpg
+- img/img/konkursas_medinis_daugiabutis_1.jpg
 - img/konkursas_medinis_daugiabutis_2.jpg
 
 ---
